@@ -3,3 +3,5 @@ pathlib
 pypdf
 python-docx
 docx
+torch 
+transformers
