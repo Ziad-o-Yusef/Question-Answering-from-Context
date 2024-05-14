@@ -8,7 +8,7 @@ from transformers import pipeline
 
 # Getting checkpoints of the model 
 model_checkpoint = "atharvamundada99/bert-large-question-answering-finetuned-legal"
-question_answerer = pipeline("question-answering", model=model_checkpoint)
+question_answerer = pipeline("question-answering", model=model_checkpoint, force_download=True)
 
 def context_handiling(file_path,type_):
 
