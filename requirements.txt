@@ -1,0 +1,5 @@
+streamlit
+pathlib
+pypdf
+python-docx
+docx
