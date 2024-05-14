@@ -8,8 +8,7 @@ from transformers import pipeline
 
 # Getting checkpoints of the model 
 model_checkpoint = "atharvamundada99/bert-large-question-answering-finetuned-legal"
-question_answerer = pipeline("question-answering", model=model_checkpoint, force_download=True, 
-                             resume_download = True)
+question_answerer = pipeline("question-answering", model=model_checkpoint)
 
 def context_handiling(file_path,type_):
 
@@ -44,7 +43,7 @@ def context_handiling(file_path,type_):
 
 def get_answer(question,context):
   # function to get the answer from the cotext by using context
-  an = question_answerer(question=question, context=context,force_download=True, resume_download = True)
+  an = question_answerer(question=question, context=context,)
   return an['answer']
 
 
