@@ -44,7 +44,7 @@ def context_handiling(file_path,type_):
 
 def get_answer(question,context):
   # function to get the answer from the cotext by using context
-  an = question_answerer(question=question, context=context)
+  an = question_answerer(question=question, context=context,force_download=True, resume_download = True)
   return an['answer']
 
 
