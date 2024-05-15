@@ -3,7 +3,6 @@ __________________________________________________________
 ## An application using Transformers and Streamlit as a UI, to answer questions through specific context 
 __________________________________________________________
 Demo Video : https://drive.google.com/file/d/1OuMzSyttmYxrDifykq7TLskNPeFGEsDK/view?usp=sharing
-[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)]([https://youtu.be/vt5fpE0bzSY](https://drive.google.com/file/d/1OuMzSyttmYxrDifykq7TLskNPeFGEsDK/view?usp=sharing))
 
 ## Some information : 
 1. We used BERT free education transformer
